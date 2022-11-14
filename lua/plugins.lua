@@ -13,6 +13,7 @@ packer.startup(function (use)
      'svrana/neosolarized.nvim', 
        requires = {'tjdevries/colorbuddy.nvim'}
      }
+     use 'kyazdani42/nvim-web-devicons' -- File icons
      use 'kyazdani42/nvim-web-devicons'
      use 'L3MON4D3/LuaSnip' -- Snippet
      use 'hoob3rt/lualine.nvim' --Statusline
