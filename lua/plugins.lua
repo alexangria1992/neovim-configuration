@@ -26,6 +26,8 @@ packer.startup(function (use)
        'nvim-treesitter/nvim-treesitter',
        run = ':TSUpdate'
      }
+     use 'jose-elias-alvarez/null-ls.nvim'
+     use 'MunifTanjim/prettier.nvim'
      use 'windwp/nvim-autopairs' 
      use 'windwp/nvim-ts-autotag'
      use 'nvim-lua/plenary.nvim' -- Common utilities
@@ -33,5 +35,6 @@ packer.startup(function (use)
      use 'nvim-telescope/telescope-file-browser.nvim'
      use 'akinsho/nvim-bufferline.lua'
      use 'norcalli/nvim-colorizer.lua'
+     use 'lewis6991/gitsigns.nvim'
    end)
 
